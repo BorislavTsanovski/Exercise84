@@ -16,7 +16,7 @@ namespace HouseRentingSystem.Tests.UnitTests
         {
             // Arrange
 
-            // Act: invoke the service method with valid id
+            // Act: invoke the service method with valid id or maybe not
             var resultAgentId = this.agentService.GetAgentId(this.Agent.UserId);
 
             // Assert a correct id is returned
